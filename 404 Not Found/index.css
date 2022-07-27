@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Roboto:wght@400;900&family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Roboto:wght@400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+*{
+    margin:0px;
+    padding:0px;
+}
+
+body{
+    height: 949px;
+    width: 375px ;
+    
+}
+button{
+    width: 216px;
+    height: 68px;   
+    background: #333333;
+    color:white;
+    font-family: 'Space Mono', monospace;
+    font-size: 14px;
+    margin-top:66px;
+    margin-left:24px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    letter-spacing: -0.035em;
+
+}
+
+img{
+    height:238px;
+    width:286.83px;
+    margin-bottom: 60px;
+    padding-left:44px;
+    margin:auto;
+}
+h2{
+    font-size: 48px;
+    font-family: 'Space Mono', monospace;
+    padding-left:24px;
+    font-weight: bold;
+
+}
+h1{
+    font-size: 24px;
+    font-family: 'Space Mono', monospace;
+    padding-left:24px;
+    padding-top:20px;
+    margin-bottom: 64px;
+}
+
+p{
+    font-size: 18px;
+    font-family: 'Space Mono', monospace;
+    margin-top:30px;
+    padding-left:23px;
+    letter-spacing: -0.035em;
+}
+
+section button{
+    font-size:14px;
+    font-family: 'Space Mono', monospace;
+}
+footer{
+    Height:17px;
+    font-family: 'Montserrat', sans-serif;
+    size:14px;
+    margin-top:114px;
+    margin-bottom: 24px;
+    margin-left:0px;
+    text-align: center;
+    
+
+    color:#BDBDBD;
+}
+span{
+    text-decoration: underline;
+}
+@media (min-width:600px){
+    body{
+        height: 1028px;
+        width: 1440px ;
+    }
+    main{
+      margin-left:77px;
+      margin-right:119px;
+      margin-bottom: 308px;
+      margin-top:200px;
+      display:flex;
+      /*background-color:red;*/
+      justify-content: space-around;
+    }
+    img{
+        /*background-color:green;*/
+        Width:539.22px;
+        Height: 414.25px;
+        margin:auto;
+    }
+
+    section{
+        width:586px;
+        height:466px;
+        
+        /*background-color:blue;*/
+
+    }
+    section p{
+        font-size:24px;
+    }
+    section button{
+        font-size:14px;
+        font-family: 'Space Mono', monospace;
+    }
+    footer{
+        text-align: center;
+        font-size:14px;
+    }
+
+}
